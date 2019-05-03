@@ -1,0 +1,35 @@
+{
+  "name": "smart-env",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karbunkul/node_smart_env.git"
+  },
+  "keywords": [],
+  "author": "Alexander Pokhodyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karbunkul/node_smart_env/issues"
+  },
+  "homepage": "https://github.com/karbunkul/node_smart_env#readme",
+  "devDependencies": {
+    "@types/debug": "^4.1.4",
+    "@types/node": "^11.13.8",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
+}
